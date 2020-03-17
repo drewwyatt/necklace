@@ -1,5 +1,5 @@
 {
-  "name": "ts-node-template",
+  "name": "necklace",
   "author": "Drew Wyatt <drew.j.wyatt@gmail.com>",
   "version": "0.1.0",
   "main": "dist/index.js",
@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/index.ts",
     "build": "tsc",
-    "postinstall": "node template-scripts/setup && yarn build"
+    "postinstall": "yarn build"
   },
   "devDependencies": {
     "@types/node": "^13.9.1",
